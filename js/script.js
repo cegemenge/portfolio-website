@@ -117,9 +117,10 @@ topButton.addEventListener("click", () => {
 // Footer year and current-page navigation state.
 const footerText = document.querySelector("footer p");
 if (footerText) {
-  footerText.textContent = "© " + new Date().getFullYear() + " Odunayo Osilaja. All Rights Reserved.";
+  footerText.textContent = "© " + new Date().getFullYear() + " Osilaja Odunayo Adesegun. All Rights Reserved.";
 }
 
 document.querySelectorAll("nav a").forEach((link) => {
   if (link.href === window.location.href) link.classList.add("active");
 });
+
